@@ -6,6 +6,8 @@ const UseStateArray = () => {
 
   const removeItem = (id) => {
     let newPeople = people.filter((person) => person.id !== id);
+    // console.log(id);
+    // console.log(newPeople);
     setPeople(newPeople);
   };
   return (
